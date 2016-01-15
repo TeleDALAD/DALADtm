@@ -223,7 +223,7 @@ function create_config( )
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v1
+    about_text = [[DALADbot v1
 An advance Administration bot based on yagop/telegram-bot 
 
 https://github.com/SEEDTEAM/TeleSeed
@@ -245,16 +245,16 @@ Our channels
     help_text = [[
 Commands list :
 
-!kick [username|id]
+!kick [username|id]اخراج کردن
 You can also do it by reply
 
 !ban [ username|id]
 You can also do it by reply
 
-!unban [id]
+!unban [id] 
 You can also do it by reply
 
-!who
+!who 
 Members list
 
 !modlist
