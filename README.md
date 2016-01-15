@@ -380,22 +380,15 @@ _If you are using /join service for first time you have to send it 11 time ( Bot
 # Special thanks to
 [@Shahinzk_m](https://telegram.me/shahinzk_m)
 
-For Managing [@teleseed](https://telegram.me/TeleSeed) on telegram
+For Managing [@TeleDALAD](https://telegram.me/TeleDALAD) on telegram
 
 [@DALAD2_ACC2](https://telegram.me/DALAD2_ACC2)
 
-For graphic designs
-
-[@topkecleon](https://github.com/topkecleon)
-
-[@JuanPotato](https://github.com/JuanPotato)
 
 # Our team !
 
-[Alphonse](https://github.com/hmon) ([Telegram](https://telegram.me/iwals))
-
 [DALAD](https://github.com/Abolfazlk) ([Telegram](https://telegram.me/DALAD2_ACC2))
 
-[Siyanew](https://github.com/Siyanew) ([Telegram](https://telegram.me/Siyanew))
 
-Our cahnnel > [@](https://telegram.me/)
+
+Our cahnnel > [@iran_DALAD](https://telegram.me/iran_DALAD)
