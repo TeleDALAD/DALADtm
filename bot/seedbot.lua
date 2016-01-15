@@ -221,7 +221,7 @@ function create_config( )
     },
     sudo_users = {156513822},--Sudo users
     disabled_channels = {},
-    realm = {},--Realms Id
+    realm = {58464775},--Realms Id
     moderation = {data = 'data/moderation.json'},
     about_text = [[DALADbot v1
 An advance Administration bot based on yagop/telegram-bot 
