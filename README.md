@@ -1,5 +1,5 @@
-# [TeleSeed](https://telegram.me/TeleSeed) 
-**An advance and powerful Administration bot based on [yagop/telegram-bot](https://github.com/yagop/telegram-bot) licensed under [GNU General public License](https://github.com/SEEDTEAM/TeleSeed/blob/master/LICENSE)**
+# [DALADbot](https://telegram.me/TeleDALAD) 
+**An advance and powerful Administration bot based on [yagop/telegram-bot](https://github.com/yagop/telegram-bot) licensed under [GNU General public License](https://github.com/TeleDALAD/DALADtm/blob/master/LICENSE)**
 # Features
 
 * **A powerful Anti spam with custom sensitivity For each group**
@@ -11,7 +11,6 @@
 * **Kick,ban and unban by reply**
 * **Groups,ban and global bans list**
 * **Logging anything that happens in group !**
-* **Invite by username**
 * **Group administration in bots private**
 * **Only mods,owner and admin can add bots**
 * **Arabic lock**
@@ -25,7 +24,7 @@
 ### Group creation
 >/creategroup [group name]
 >
->>/creategroup SEED
+>>/creategroup DALAD
 >>>will create a group
 >>>
 >>>_Only works in realms But sudo users can use it everywhere_
@@ -136,7 +135,7 @@
 >>>This command will set [User_id] as the owner of [group_id]
 
 ### Bot stats 
->/stats teleseed
+>/stats DALADbot
 >>This command will return bot stats
 
 ## owners and mods commands
@@ -197,7 +196,7 @@ _Sudo users and admins can also use this commands in all groups_
 
 ### Changing Group name
 >/setname [name]
->>/setname SEED
+>>/setname DALAD
 >>>This command will set [name] as name of groups
 
 ### Group link
@@ -343,8 +342,8 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 ```bash
 # lets install the bot
 cd $HOME
-git clone https://github.com/SEEDTEAM/TeleSeed.git
-cd TeleSeed
+git clone https://github.com/TeleDALAD/DALADtm.git
+cd DALADtm
 chmod +x launch.sh
 ./launch.sh install
 ./launch.sh # Enter a phone number & confirmation code.
@@ -374,16 +373,16 @@ then start the bot again
 # Support and development
 
 Do not contact **us** In private for support.
-Join our bot development group by sending `/join 56670147` to [@TeleSeed](https://telegram.me/TeleSeed)
+Join our bot development group by sending `/join 56670147` to [@TeleDALAD](https://telegram.me/TeleDALAD)
 
 _If you are using /join service for first time you have to send it 11 time ( Bot is spam reported )_
 
 # Special thanks to
-[@seyedan25](https://telegram.me/seyedan25)
+[@Shahinzk_m](https://telegram.me/shahinzk_m)
 
 For Managing [@teleseed](https://telegram.me/TeleSeed) on telegram
 
-[@Vamptacus](https://telegram.me/Vamptacus)
+[@DALAD2_ACC2](https://telegram.me/DALAD2_ACC2)
 
 For graphic designs
 
@@ -395,8 +394,8 @@ For graphic designs
 
 [Alphonse](https://github.com/hmon) ([Telegram](https://telegram.me/iwals))
 
-[I M /-\ N](https://github.com/imandaneshi) ([Telegram](https://telegram.me/imandaneshi))
+[DALAD](https://github.com/Abolfazlk) ([Telegram](https://telegram.me/DALAD2_ACC2))
 
 [Siyanew](https://github.com/Siyanew) ([Telegram](https://telegram.me/Siyanew))
 
-Our cahnnel > [@TeleSeedCH](https://telegram.me/teleseedch)
+Our cahnnel > [@](https://telegram.me/)
