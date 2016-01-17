@@ -244,110 +244,146 @@ Our channels
 ]],
     help_text = [[
 Commands list :
+لیست دستورات
 
 !kick [username|id]
 You can also do it by reply
+اخراج کردن فرد از گروه
+شما میتوانید با ریپلی هم این کار را انجام دهید
 
 !ban [ username|id]
 You can also do it by reply
+اخراج همیشگی فرد از گروه 
+شما میتوانید با ریپلی هم این کار را انجام دهید
 
 !unban [id] 
 You can also do it by reply
+حذف اخراج همیشگی فرد از گروه
+شما میتوانید با ریپلی هم این کار را انجام دهید
 
 !who 
 Members list
+دریافت ایدی اعضای گروه 
 
 !modlist
 Moderators list
+دریافت لیست مدیر های گروه
 
 !promote [username]
 Promote someone
+مدیر کردن فرد
 
 !demote [username]
 Demote someone
+برکنار کردن از مدیریت فرد
 
 !kickme
 Will kick user
+اخراج خود از گروه توسط بات
 
 !about
 Group description
+دریافت توضیحات گروه
 
 !setphoto
 Set and locks group photo
+تنظیم عکس گروه
 
 !setname [name]
 Set group name
+تنظیم اسم گروه 
 
 !rules
 Group rules
+قوانین گروه
 
 !id
 return group id or user id
+ایدی گروه
 
 !help
+راهنمای بات
 
 !lock [member|name|bots]
 Locks [member|name|bots] 
+قفل کردن اعضا نام ربات 
 
 !unlock [member|name|photo|bots]
 Unlocks [member|name|photo|bots]
+باز کردن قفل اعضا نام ربات
 
 !set rules <text>
 Set <text> as rules
+تنظیم قوانین برای گروه
 
 !set about <text>
 Set <text> as about
+تنظیم توضیحات برای گروه
 
 !settings
 Returns group settings
+دریافت تنظیمات گروه
 
 !newlink
 create/revoke your group link
+عوض کردن لینک گروه
 
 !link
 returns group link
+گرفتن لینک گروه
 
 !owner
 returns group owner id
+دریافت ایدی مالک گروه
 
 !setowner [id]
 Will set id as owner
+تنظیم مالک برای گروه
 
 !setflood [value]
 Set [value] as flood sensitivity
+حساسیت نشان دادن به تعداد مشخص پیام
 
 !stats
 Simple message statistics
+تعداد پیام هایی که افراد در گروه داده اند
 
 !save [value] <text>
 Save <text> as [value]
+ذخیره کردن یک پیام
 
 !get [value]
 Returns text of [value]
+نمایش پیام ذخیره شده 
 
 !clean [modlist|rules|about]
 Will clear [modlist|rules|about] and set it to nil
+حذف کردن مدیران قوانین توضیحات 
 
 !res [username]
 returns user id
 "!res @username"
+گرفتن ایدی و نام فرد
 
 !log
 will return group logs
+گرفتن لیست دستوراتی که به بات داده اند
 
 !banlist
 will return group ban list
+لیست کسانی که اخراج همیشگی شده اند
 
 **U can use both "/" and "!" 
-
+شما میتوانید از ! و / برای دستور به بات استفاده کنید
 
 *Only owner and mods can add bots in group
-
+فقط مالک گروه میتواند یک بات به گروه اضافه کند
 
 *Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
+فقط مالک گروه و مدیران میتوانند اخراج،اخراج همیشگی،حذف اخراج همیشگی،گرفتن لینک جدید،گرفتن لینک،تنظیم عکس،تنظیم اسم،قفل کردن،باز کردن قفل،تنظیم قوانین،تنظیم توضیحات و تنظیمات گروه را انجام دهند
 
 *Only owner can use res,setowner,promote,demote and log commands
-
+فقط مالک گروه میتواند ایدی فرد،تنظیم مالک جدید،مدیر کردن،حذف از مدیریت و گرفتن لیست دستوراتی که به بات داده اند را انجام دهد
 ]]
 
   }
