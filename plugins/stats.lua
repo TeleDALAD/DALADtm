@@ -32,11 +32,11 @@ local function chat_stats(chat_id)
   for k,user in pairs(users_info) do
     text = text..user.name..' = '..user.msgs..'\n'
   end
-  local file = io.open("./groups/"..chat_id.."stats.txt", "w")
+  local file = io.open("./groups/lists/"..chat_id.."stats.txt", "w")
   file:write(text)
   file:flush()
   file:close() 
-  send_document("chat#id"..chat_id,"./groups/"..chat_id.."stats.txt", ok_cb, false)
+  send_document("chat#id"..chat_id,"./groups/lists/"..chat_id.."stats.txt", ok_cb, false)
   return --text
 end
 
@@ -91,10 +91,10 @@ local function bot_stats()
   return text
 end
 local function run(msg, matches)
-  if matches[1]:lower() == 'DALADbot' then -- Put everything you like :)
+  if matches[1]:lower() == 'teleseed' then -- Put everything you like :)
     local about = _config.about_text
     local name = user_print_name(msg.from)
-    savelog(msg.to.id, name.." ["..msg.from.id.."] used /DALADbot ")
+    savelog(msg.to.id, name.." ["..msg.from.id.."] used /teleseed ")
     return about
   end 
   if matches[1]:lower() == "statslist" then
@@ -120,7 +120,7 @@ local function run(msg, matches)
         return
       end
     end
-    if matches[2] == "DALADbot" then -- Put everything you like :)
+    if matches[2] == "teleseed" then -- Put everything you like :)
       if not is_admin(msg) then
         return "For admins only !"
       else
@@ -142,7 +142,7 @@ return {
     "^[!/]([Ss]tatslist)$",
     "^[!/]([Ss]tats) (group) (%d+)",
     "^[!/]([Ss]tats) (teleseed)",-- Put everything you like :)
-		"^[!/]([Dd]LADbot)"-- Put everything you like :)
+		"^[!/]([Tt]eleseed)"-- Put everything you like :)
     }, 
   run = run
 }
