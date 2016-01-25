@@ -291,7 +291,7 @@ Set and locks group photo
 
 !setname [name]
 Set group name
-تنظیم اسم گروه 
+تنظیم  اسم گروه 
 
 !rules
 Group rules
